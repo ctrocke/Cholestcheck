@@ -13,10 +13,12 @@
     </asp:PlaceHolder>
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <LINK href="~/Content/Site.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-    <form runat="server">
+<body style="background-color: lightgrey;">
+    <form runat="server">        
+        <div id="top_banner" style="vertical-align:top; height:100px; width:100%; background-color:aqua;">
+        </div>
         <asp:ScriptManager runat="server">
             <Scripts>
                 <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
@@ -37,8 +39,25 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-
-        <div class="navbar navbar-inverse navbar-fixed-top">
+        <center>
+            <div style="width:600px; height:50px; background-color:white; vertical-align:central; line-height:50px;">
+                <a runat="server" style="padding-right:20px;" href="~/">Home</a>
+                <a runat="server" style="padding-right:20px;" href="~/Patients">For Patients</a>
+                <a runat="server" style="padding-right:20px;" href="~/Partners">For Partners</a>
+                <a runat="server" style="padding-right:20px;" href="~/Summaries">Test Summaries</a>
+                <a runat="server" style="padding-right:20px;" href="~/Careers">Careers</a>
+                <a runat="server" href="~/Contact">Contact Us</a>
+            </div>
+        </center>
+        <%--<ul class="nav navbar-nav" style="list-style:none; align-content:center; align-self:center;">
+            <li><a runat="server" href="~/">Home</a></li>
+            <li><a runat="server" href="~/Patients">For Patients</a></li>
+            <li><a runat="server" href="~/Partners">For Partners</a></li>
+            <li><a runat="server" href="~/Summaries">Test Summaries</a></li>
+            <li><a runat="server" href="~/Careers">Careers</a></li>
+            <li><a runat="server" href="~/Contact">Contact Us</a></li>
+        </ul>--%>
+        <%--<div class="" style=" height:100px; width:800px; align-content:center;">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -46,17 +65,10 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Cholestcheck</a>
+                               <a class="navbar-brand" runat="server" href="~/">Cholestcheck</a>
                 </div>
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/Patients">For Patients</a></li>
-                        <li><a runat="server" href="~/Partners">For Partners</a></li>
-                        <li><a runat="server" href="~/Summaries">Test Summaries</a></li>
-                        <li><a runat="server" href="~/Careers">Careers</a></li>
-                        <li><a runat="server" href="~/Contact">Contact Us</a></li>
-                    </ul>
+                    
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
@@ -75,7 +87,7 @@
                     </asp:LoginView>
                 </div>
             </div>
-        </div>
+        </div>--%>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>

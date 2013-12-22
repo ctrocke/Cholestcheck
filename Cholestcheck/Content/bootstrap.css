@@ -59,6 +59,7 @@ html {
 
 body {
   margin: 0;
+  background-color: aqua;
 }
 
 a:focus {
@@ -3787,7 +3788,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav {
   padding-left: 0;
   margin-bottom: 0;
-  list-style: none;
+  list-style: decimal;
+  align-content:center;
 }
 
 .nav:before,

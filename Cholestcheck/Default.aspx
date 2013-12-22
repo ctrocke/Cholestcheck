@@ -8,35 +8,65 @@
         <p><a href="http://www.asp.net" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
     </div>
 
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Getting started</h2>
-            <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
-            <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-            </p>
-        </div>
-    </div>
+    <table>
+        <tr>
+            <td>
+                <div class="reading-box">
+                        <h2>For Patients</h2>
+                    <div class="reading-box-item">
+                        Latest technology used to process test on site.
+                    </div>
+                    <div class="reading-box-item">
+                        Results proccessed on site within a few minutes.
+                    </div>
+                    <div class="reading-box-item">
+                        Trained medical staff to explain test results.
+                    </div>
+                    <div style="align-items:center;">
+                        <button class="readmorebutton" id="btnForPatients" >Read More</button>
+
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="reading-box">
+                        <h2>For Partners</h2>
+                    <div class="reading-box-item">
+                        No Hassle - Complete turn-key program.
+                    </div>
+                    <div class="reading-box-item">
+                        Well trained and experienced medical personnel.
+                    </div>
+                    <div class="reading-box-item">
+                        Marketing and advertising components included.
+                    </div>
+                    <div class="reading-box-item">
+                        Onsite Employee and Customer Wellness Programs.
+                    </div>
+                        <button class="readmorebutton" id="btnForPartners" >Read More</button>
+                </div>
+            </td>
+            <td>
+                <div class="reading-box">
+                        <h2>Test Summaries</h2>
+                    <div class="reading-box-item">
+                        Glucose - Blood Sugar (Diabetes)
+                    </div>
+                    <div class="reading-box-item">
+                        Total Cholesterol - Basic Cholesterol.
+                    </div>
+                    <div class="reading-box-item">
+                        Lipid Profile - Complete Cholesterol Break Down.
+                    </div>
+                    <div class="reading-box-item">
+                        Many more screenings available.
+                    </div>
+                        <button class="readmorebutton" id="btnTestSummaries" >Read More</button>
+                        
+                </div>
+
+            </td>
+        </tr>
+    </table>
 
 </asp:Content>
