@@ -336,7 +336,7 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: #00b9e8;
   text-decoration: none;
 }
 
@@ -4937,6 +4937,7 @@ a.list-group-item.active > .badge,
   line-height: 2.1428571435;
   color: inherit;
   background-color: #eeeeee;
+  width: 980px;
 }
 
 .jumbotron h1 {

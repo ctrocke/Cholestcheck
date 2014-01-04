@@ -2,71 +2,171 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+    <div class="centered">
+        <img src="images/home_banner.png" />
     </div>
 
-    <table>
-        <tr>
-            <td>
-                <div class="reading-box">
+
+    <div class="centered">
+
+        <table style="align-content: center;">
+            <tr>
+                <td>
+                    <div class="reading-box">
                         <h2>For Patients</h2>
-                    <div class="reading-box-item">
-                        Latest technology used to process test on site.
-                    </div>
-                    <div class="reading-box-item">
-                        Results proccessed on site within a few minutes.
-                    </div>
-                    <div class="reading-box-item">
-                        Trained medical staff to explain test results.
-                    </div>
-                    <div style="align-items:center;">
-                        <button class="readmorebutton" id="btnForPatients" >Read More</button>
+                        <table>
+                            <tr>
+                                <td>
+                                    <img class="heartimg" src="images/heart.png" />
+                                </td>
+                                <td>
+                                    <div class="reading-box-item">
+                                        Latest technology used to process test on site.
+                                    </div>
 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="heartimg" src="images/heart.png" />
+                                </td>
+                                <td>
+                                    <div class="reading-box-item">
+                                        Results proccessed on site within a few minutes.
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="heartimg" src="images/heart.png" />
+                                </td>
+                                <td>
+                                    <div class="reading-box-item">
+                                        Trained medical staff to explain test results.
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="wrapper">
+                            <button class="readmorebutton" id="btnForPatients">Read More</button>
+                        </div>
                     </div>
-                </div>
-            </td>
-            <td>
-                <div class="reading-box">
+                </td>
+                <td>
+
+                    <div class="reading-box">
                         <h2>For Partners</h2>
-                    <div class="reading-box-item">
-                        No Hassle - Complete turn-key program.
-                    </div>
-                    <div class="reading-box-item">
-                        Well trained and experienced medical personnel.
-                    </div>
-                    <div class="reading-box-item">
-                        Marketing and advertising components included.
-                    </div>
-                    <div class="reading-box-item">
-                        Onsite Employee and Customer Wellness Programs.
-                    </div>
-                        <button class="readmorebutton" id="btnForPartners" >Read More</button>
-                </div>
-            </td>
-            <td>
-                <div class="reading-box">
-                        <h2>Test Summaries</h2>
-                    <div class="reading-box-item">
-                        Glucose - Blood Sugar (Diabetes)
-                    </div>
-                    <div class="reading-box-item">
-                        Total Cholesterol - Basic Cholesterol.
-                    </div>
-                    <div class="reading-box-item">
-                        Lipid Profile - Complete Cholesterol Break Down.
-                    </div>
-                    <div class="reading-box-item">
-                        Many more screenings available.
-                    </div>
-                        <button class="readmorebutton" id="btnTestSummaries" >Read More</button>
-                        
-                </div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <img class="heartimg" src="images/heart.png" />
+                                </td>
+                                <td>
+                                    <div class="reading-box-item">
+                                        No Hassle - Complete turn-key program.
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="heartimg" src="images/heart.png" />
+                                </td>
+                                <td>
+                                    <div class="reading-box-item">
+                                        Well trained and experienced medical personnel.
+                                    </div>
 
-            </td>
-        </tr>
-    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="heartimg" src="images/heart.png" />
+                                </td>
+                                <td>
+                                    <div class="reading-box-item">
+                                        Marketing and advertising components included.
+                                    </div>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="heartimg" src="images/heart.png" />
+                                </td>
+                                <td>
+                                    <div class="reading-box-item">
+                                        Onsite Employee and Customer Wellness Programs.
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+
+
+
+                        <div class="wrapper">
+                            <button class="readmorebutton" id="btnForPartners">Read More</button>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="reading-box">
+                        <h2>Test Summaries</h2>
+                        <table>
+                            <tr>
+                                <td>
+                                    <img class="heartimg" src="images/heart.png" />
+                                </td>
+                                <td>
+                                    <div class="reading-box-item">
+                                        Glucose - Blood Sugar (Diabetes)
+                                    </div>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="heartimg" src="images/heart.png" />
+                                </td>
+                                <td>
+                                    <div class="reading-box-item">
+                                        Total Cholesterol - Basic Cholesterol.
+                                    </div>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="heartimg" src="images/heart.png" />
+                                </td>
+                                <td>
+                                    <div class="reading-box-item">
+                                        Lipid Profile - Complete Cholesterol Break Down.
+                                    </div>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img class="heartimg" src="images/heart.png" />
+                                </td>
+                                <td>
+                                    <div class="reading-box-item">
+                                        Many more screenings available.
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <div class="wrapper">
+                            <button class="readmorebutton" id="btnTestSummaries">Read More</button>
+                        </div>
+
+                    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
 
 </asp:Content>
