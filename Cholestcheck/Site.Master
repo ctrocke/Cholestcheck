@@ -11,13 +11,14 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <LINK href="~/Content/Site.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css">
 </head>
 <body style="background-color: lightgrey;">
-    <form runat="server">        
-        <div id="top_banner" style="vertical-align:top; height:100px; width:100%; background-color:aqua;">
+    <form runat="server">
+        <div id="top_banner" class="wrapper" style="vertical-align: top; height: 200px; width: 100%; background-color: #00b9e8;">
+            <img src="images/banner.png" />
         </div>
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -40,12 +41,12 @@
             </Scripts>
         </asp:ScriptManager>
         <center>
-            <div style="width:600px; height:50px; background-color:white; vertical-align:central; line-height:50px;">
-                <a runat="server" style="padding-right:20px;" href="~/">Home</a>
-                <a runat="server" style="padding-right:20px;" href="~/Patients">For Patients</a>
-                <a runat="server" style="padding-right:20px;" href="~/Partners">For Partners</a>
-                <a runat="server" style="padding-right:20px;" href="~/Summaries">Test Summaries</a>
-                <a runat="server" style="padding-right:20px;" href="~/Careers">Careers</a>
+            <div style="width:980px; height:50px; background-color:white; vertical-align:central; line-height:50px;">
+                <a runat="server" style="padding-right:75px;" href="~/">Home</a>
+                <a runat="server" style="padding-right:75px;" href="~/Patients">For Patients</a>
+                <a runat="server" style="padding-right:75px;" href="~/Partners">For Partners</a>
+                <a runat="server" style="padding-right:75px;" href="~/Summaries">Test Summaries</a>
+                <a runat="server" style="padding-right:75px;" href="~/Careers">Careers</a>
                 <a runat="server" href="~/Contact">Contact Us</a>
             </div>
         </center>
@@ -93,7 +94,17 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> Cholestcheck</p>
+                <div class="wrapperRight">
+                    <a runat="server" style="padding-right: 20px;" href="~/">Home</a>
+                    <a runat="server" style="padding-right: 20px;" href="~/Patients">For Patients</a>
+                    <a runat="server" style="padding-right: 20px;" href="~/Partners">For Partners</a>
+                    <a runat="server" style="padding-right: 20px;" href="~/Summaries">Test Summaries</a>
+                    <a runat="server" style="padding-right: 20px;" href="~/Careers">Careers</a>
+                    <a runat="server" href="~/Contact">Contact Us</a>
+                </div>
+<%--                <div class="wrapperLeft">
+                    <p>&copy; <%: DateTime.Now.Year %> Cholestcheck</p>
+                </div>--%>
             </footer>
         </div>
     </form>
