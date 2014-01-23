@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Cholestcheck
 {
-    public partial class Summaries : System.Web.UI.Page
+    public partial class TestSummaries : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

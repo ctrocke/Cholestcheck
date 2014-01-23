@@ -11,7 +11,7 @@ namespace Cholestcheck
 {
 
 
-    public partial class Summaries
+    public partial class TestSummaries
     {
     }
 }
